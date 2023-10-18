@@ -24,7 +24,7 @@ with BytesIO() as f:
     with h5py.File(f, 'r') as h5file:
         global MODEL
         MODEL = tf.keras.models.load_model(h5file)
-        MODEL.summary()
+#         MODEL.summary()
 
 CLASS_NAMES = ['ants', 'bed_bugs', 'mosquito', 'no_bites', 'ticks']
 
