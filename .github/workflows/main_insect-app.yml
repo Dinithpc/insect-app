@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'insect-app'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_26733610C4B24F64BCF63CD1BAF093FF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_964314481CD443848F9EC12680F4C8F6 }}
