@@ -8,7 +8,7 @@ from PIL import Image
 import tensorflow as tf
 from azure.storage.blob import BlobServiceClient
 import h5py
-app = FastAPI()
+app = FastAPI(__name__)
 
 # origins = [
 #     "http://localhost",
@@ -106,5 +106,5 @@ async def allergy(allergies: str):
         return {"message": "Allergy type does not exist"}
 
 
-if __name__ == "__main__":
-    uvicorn.run(app)
+# if __name__ == "__main__":
+#     uvicorn.run(app)
