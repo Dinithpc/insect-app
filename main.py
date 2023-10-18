@@ -107,4 +107,4 @@ async def allergy(allergies: str):
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, host='https://insect-app.azurewebsites.net/')
+    uvicorn.run(app)
